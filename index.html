@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator </title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="container bg-black text-white small-width">
+            <div id="display" class="h1 text-right padding-top">0</div>
+            <div class="row">
+                <div onclick="calcClear()" class="btn btn-lg button-grey border-grey-right col-3">
+                    AC
+                </div>
+                <div onclick="signChange()" class="btn btn-lg button-grey border-grey-right col-3">
+                    +/-
+                </div>
+                <div id="%" onclick="opClicked('%')" class="btn btn-lg button-grey border-grey-right col-3">
+                    %
+                </div>
+                <div id="/" onclick="opClicked('/')" class="btn btn-lg button-orange border-grey col-3">
+                    /
+                </div>
+            </div>
+            <div class="row">
+                <div onclick="numberClicked(7)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    7
+                </div>
+                <div onclick="numberClicked(8)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    8
+                </div>
+                <div onclick="numberClicked(9)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    9
+                </div>
+                <div id="x" onclick="opClicked('x')" class="btn btn-lg button-orange border-grey col-3">
+                    x
+                </div>
+            </div>
+            <div class="row">
+                <div onclick="numberClicked(4)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    4
+                </div>
+                <div onclick="numberClicked(5)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    5
+                </div>
+                <div onclick="numberClicked(6)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    6
+                </div>
+                <div id="–" onclick="opClicked('–')" class="btn btn-lg button-orange border-grey col-3">
+                    –
+                </div>
+            </div>
+            <div class="row">
+                <div onclick="numberClicked(1)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    1
+                </div>
+                <div onclick="numberClicked(2)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    2
+                </div>
+                <div onclick="numberClicked(3)" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    3
+                </div>
+                <div id="+" onclick="opClicked('+')" class="btn btn-lg button-orange border-grey col-3">
+                    +
+                </div>
+            </div>
+            <div class="row">
+                <div onclick="numberClicked(0)" class="btn btn-lg btn-secondary border-grey-right col-6">
+                    0
+                </div>
+                <div onclick="decimalClicked()" class="btn btn-lg btn-secondary border-grey-right col-3">
+                    .
+                </div>
+                <div onclick="equals()" class="btn btn-lg button-orange border-grey col-3">
+                    =
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

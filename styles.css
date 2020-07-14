@@ -1,0 +1,44 @@
+.bg-black {
+    background-color: black;
+}
+
+.padding-top {
+    padding-top: 35px;
+}
+
+.small-width {
+    width: 25%;
+}
+
+.border-grey-right {
+    border-right-color: #646464;
+    border-top-color: #646464;
+}
+
+.border-grey {
+    border-top-color: #808080;
+}
+
+.button-orange {
+    background-color: orange;
+}
+
+.button-orange:hover {
+    background-color: #ec9117;
+}
+
+.button-orange:active {
+    background-color: #dd8815;
+}
+
+.button-grey {
+    background-color: #bebebe;
+}
+
+.button-grey:hover {
+    background-color: #a5a5a5;
+}
+
+.button-grey:active {
+    background-color: #9a9a9a;
+}
